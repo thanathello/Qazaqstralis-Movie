@@ -1,0 +1,23 @@
+.movie-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.movie-card-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.rating-low {
+    color: #ff0703;
+}
+
+.rating-high {
+    color: green;
+}
+
+.rating-mid {
+    color: #ff7018
+}

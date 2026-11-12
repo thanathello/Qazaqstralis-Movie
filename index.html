@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Qazaqstralis Movie</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header>
@@ -17,8 +19,34 @@
             <option value="tanat">Танат</option>
             <option value="daniyar">Данияр</option>
             <option value="serik">Серик</option>
-            <option value="serik">Амир</option>
+            <option value="amir">Амир</option>
         </select>
     </div>
+    <div>
+        <input type="text" placeholder="Отель Руанда" id="search-input">
+        <button id="search-button">Найти фильм</button>
+    </div>
+    <main id="movies-list">
+        <div class="movie-card">
+            <img src="images/MV5BY2FmMWRmZmQtN2IzMS00OGVmLWFmNjktMTM0YWQzODcwYTEwXkEyXkFqcGc@._V1_.jpg" class="movie-card-img" alt="Руанда" style="">
+            <h3>Отель Руанда</h3>
+            <a href="">
+                Открыть на IMDb
+            </a>
+            <label>
+                <select class="status-select">
+                    <option>Просмотрено</option>
+                    <option>Брошено</option>
+                </select>
+            </label>
+            <input type="number" class="rating-input" min="1" max="10" step="0.5">
+            <button class="save-rating-button">
+                Сохранить
+            </button>
+            <ul class="ratings-display">
+
+            </ul>
+        </div>
+    </main>
 </body>
 </html>
